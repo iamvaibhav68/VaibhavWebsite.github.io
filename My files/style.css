@@ -1,0 +1,597 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  margin-left: 0px;
+}
+
+.header {
+  background-color: #583d72;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Bradley Hand ITC;
+  color: white;
+}
+
+#navbar a:hover {
+
+  color: red;
+  position: relative;
+  top: 0px;
+  scroll-behavior: smooth;
+}
+
+.content {
+ 
+}
+
+.sticky {
+  position: relative;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.section1 {
+  position: relative;
+  background-image: url();
+}
+.fullwebsite {
+  position: relative;
+  background-color: black;
+}
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+.Heading-section {
+  position: absolute;
+  bottom: 250px;
+  padding-left: 500px;
+  font-size: 75px;
+   color: #08D665
+
+}
+.typing-headline {
+  position: absolute;
+    bottom: 210px;
+  padding-left: 550px; 
+}
+
+
+.typing-headline2 {
+  color: white;
+  position: absolute;
+  bottom: 210px;
+  padding-left: 510px;
+}
+.Aboutme {
+  position: relative;
+ top: 600px;
+}
+.Manik-image {
+  position: relative;
+  float: left;
+}
+.Myservices {
+  position: relative;
+  top: 900px;
+}
+.text-section100 {
+  position: relative;
+  top: 100px;
+}
+.text-section2, .text-section1 {
+  font-size: 21px;
+  font-family : Bradley Hand ITC;
+  color: #eeeded;
+}
+.technical-shooter {
+  position: relative;
+  font-family: Bradley Hand ITC;
+}
+.button1 {
+  position: relative;
+  height: 50px;
+  width: 150px;
+  background-color: #08D665;
+  border-radius: 20px;
+  border: none;
+  font-family: Bradley Hand ITC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*  this is starting of My services website*/
+.Columncard1 {
+  position: relative;
+  height:348px; 
+  width:384px; 
+  background-color: black;
+  left: 30px;
+  bottom: 0px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.Columncard2 {
+  position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+  left: 460px;
+  bottom: 350px;
+}
+.Columncard3 {
+ position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+  bottom: 700px;
+  left: 900px;
+}
+.Columncard4 {
+   position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+  bottom: 650px;
+  left: 30px;
+}
+.Columncard5 {
+  position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+  bottom: 1000px;
+  left: 460px;
+}
+.Columncard6 {
+ position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+  bottom: 1350px;
+  left: 900px;
+}
+.vaibhav6789 {
+  position: relative;
+  text-align: center;
+}
+.t {
+  position: relative;
+  top: 30px;
+ 
+}
+.breakline {
+  color: #08D665;
+}
+
+.userinterface12 {
+  position: relative;
+  top: 50px;
+}
+.use {
+  position: relative;
+  top
+}
+.vsabsvcha {
+  position: relative;
+  top: 50px;
+  bottom: 100px;
+}
+.vabhsdbdc {
+  position: relative;
+  top: 50px; 
+}
+.vauhsvn {
+  position: relative;
+  top: 50px;
+}
+.vaibhsavg {
+  position: relative;
+  top: 50px;
+}
+.t {
+  position: relative;
+  font-weight: Bradly Hand ITC;
+}
+
+/*   this is end of My services section*/
+
+
+
+
+
+
+/*   this is strating of freelancer section*/
+
+.Service {
+  position: relative;
+  background: url("http://belaltheme.com/tm/Manik/Manik/images/cta-action.jpg")
+  repeat fixed 100%;
+  height: 300px;
+  width: 100%;
+  bottom: 200px;
+
+}
+.text-section19 {
+  position: relative;
+  color: white;
+  bottom: 630px;
+}
+.button2 {
+  position: relative;
+  bottom: 630px;
+  height: 50px;
+  width: 94.09px;
+  background-color: #08D665;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+/*   this is end of freelancer section*/
+
+
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  position: relative;
+  left: 40px;
+}
+.Loadmore {
+  position: relative;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  top: 30px;
+  background-color: #08D665;
+  border: none;
+  border-radius: 5px;
+}
+.Myexperience {
+ position: relative;
+  background: url("file:///F:/30%20days%20and%2030%20website%20challenge/day%204%20challenge%20website_files/My%20files/images/counter.jpg")
+  repeat fixed 100%;
+  height: 300px;
+  width: 100%;
+  bottom: 200px;  
+  top: 150px;
+}
+.vaibhav21345{
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+  
+}
+.succesfully {
+  position: relative;
+  left: 70px;
+}
+.Myexperience2 {
+  position: absolute;
+  z-index: 1;
+  border-style:  
+}
+.vaibhav4345 {
+  position: relative;
+  height: 530px;
+  width: 350px;
+  background-color: black;
+  top: 200px;
+     border-width: 1px;
+}
+.asmcns2345 {
+  position: relative;
+    height: 530px;
+  width: 350px;
+  background-color: black;
+  bottom: 350px;
+  left: 470px; 
+   border-width: 1px;
+}
+.MyBlog {
+  position: relative;
+  left: 30px;
+}
+.samcbv72 {
+  position: relative;
+  height: 530px;
+  width: 350px;
+  background-color: black;
+  left: 940px;
+  bottom: 880px;
+
+  border-width: 1px;  
+}
+.smccnmsd {
+  position: relative;
+  width: 100%;
+}
+.sdfxsa {
+  position: relative;
+  width: 100%;
+}
+.sdmcbs {
+  position: relative;
+  width: 100%;
+}
+.iehcjs {
+  position: relative;
+  left: 10px;
+
+}
+.sdmcbs {
+  transform:  
+}
+.Pencil1234:hover {
+  transform: scale(1.5);
+
+}
+.vaibahvqw3456 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: white;
+  position: relative;
+   left: 30px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  background-color: black;
+}
+
+
+input[type=email]{
+  position: relative;
+  width: 40%;
+  background-color: black;
+  border: solid white;
+  color: white;
+  border-width: 1px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  top: 60px;
+  right: 650px;
+  
+}
+input[type=message] {
+  position: relative;
+  width: 40%;
+  height: 100px;
+
+  
+}
+#vaibhavdsbavb {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  background-color: black;
+    color: white;
+}
+.footer {
+  position: relative;
+  background-color: #1A1A1A;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  top: 30px;
+}
+#sdncnsmdv {
+  position: relative;
+  top: 30px;
+}
+.lastbutton {
+  position: relative;
+  height: 50px;
+  width: 120px;
+  background-color: #08D665;
+  border: none;
+  border-radius: 5px;
+  top: 70px;
+  right: 650px;
+}
+.vaibhavfooter {
+  position: relative;
+  top: 200px;
+}
+.knkdfnj {
+  position: relative;
+  bottom: 60px;
+
+}
+ body {
+    background-color: black;
+    color: white;
+    
+  }
+.Computerscience1 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+  text-align: center;
+}
+.text-section201 {
+  color: white;
+  font-size: 25px;
+}
+  
+.Pencil1 {
+  position: relative;
+  top: 20px;
+}
+.Computerscience12 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+  text-align: center;
+  left: 450px;
+  bottom: 325px;
+}
+.Computerscience14 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+  text-align: center; 
+  left: 900px;
+  bottom: 680px;
+}
+.Computerscience5 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+  text-align: center; 
+  bottom: 650px;
+}
+.Computerscience1234 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+  text-align: center;   
+    bottom: 1010px;
+    left: 450px;
+}
+.sdjkjnskvcj92848437 {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-weight: lighter;
+  font-family: Bradley Hand ITC;
+    text-align: center; 
+    bottom: 1360px;
+    left: 100px;  
+
+}
+.vaibahvqw3456 {
+  position: relative;
+  width: 50%;
+}
+.Heading {
+  position: relative;
+  top: 20px;
+}
+.ContactUs {
+  position: relative;
+  top: 100px;
+}
+.section1 {
+
+
+
+
+} 
+.typingheadline {
+  position: static;
+  color: white;
+  text-align: center;
+  top: 200px;
+   font-size: 70px;
+  color: orange;
+  font-family: Bradley Hand ITC;
+  margin-top: 200px;
+}
+.nbkndfkjbnkdfjb {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: powderblue;
+  top: 100px;
+}
+.fullwebsite {
+  position: relative;
+}

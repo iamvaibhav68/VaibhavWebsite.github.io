@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.header {
+  background-color: #583d72;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Bradley Hand ITC;
+  color: white;
+}
+
+#navbar a:hover {
+
+  color: red;
+  position: relative;
+  top: 0px;
+  scroll-behavior: smooth;
+}
+
+.content {
+ 
+}
+
+.sticky {
+  position: relative;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.section1 {
+  position: relative;
+  background-image: url();
+}
+.fullwebsite {
+  position: relative;
+  background-color: black;
+}
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+.Heading-section {
+  position: absolute;
+  bottom: 250px;
+  padding-left: 500px;
+  font-size: 75px;
+   color: #08D665
+
+}
+.typing-headline {
+  position: absolute;
+    bottom: 210px;
+  padding-left: 550px; 
+}
+
+
+.typing-headline2 {
+  color: white;
+  position: absolute;
+  bottom: 210px;
+  padding-left: 510px;
+}
+.Aboutme {
+  position: relative;
+ top: 600px;
+}
+.Manik-image {
+  position: relative;
+  float: left;
+}
+.Myservices {
+  position: relative;
+  top: 900px;
+}
+.text-section100 {
+  position: relative;
+  top: 100px;
+}
+.text-section2, .text-section1 {
+  font-size: 21px;
+  font-family : Bradley Hand ITC;
+  color: #eeeded;
+}
+.technical-shooter {
+  position: relative;
+  font-family: Bradley Hand ITC;
+}
+.button1 {
+  position: relative;
+  height: 50px;
+  width: 150px;
+  background-color: #08D665;
+  border-radius: 20px;
+  border: none;
+  font-family: Bradley Hand ITC;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Columncard1 {
+  position: relative;
+  height:   348px; 
+  width:384px; 
+  background-color: black;
+  left: 30px;
+  bottom: 30px;
+  border-style: solid;
+  border-width: thin;
+}
+.Columncard2 {
+  position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: black;
+  border: 2px;
+  border-style: solid;
+  border-width: thin;
+}
+.Columncard3 {
+  position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: grey;
+}
+.Columncard4 {
+  position: relative;
+  height: 348px; 
+  width:384px;
+  background-color: grey;
+}
+.Columncard5 {
+  position: relative;
+  height: 348px; 
+  width:384px;
+  background-color: grey;
+}
+.Columncard6 {
+  position: relative;
+  height: 348px; 
+  width: 384px;
+  background-color: grey;
+}
+.vaibhav6789 {
+  position: relative;
+  text-align: center;
+}
+.t {
+  position: relative;
+  top: 50px;
+  font-family: Yeon Sung;
+}
+.breakline {
+  color: #08D665;
+}
